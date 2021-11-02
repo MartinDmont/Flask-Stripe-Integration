@@ -5,8 +5,8 @@ from flask import Flask, jsonify, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 stripe_keys = {
-  'secret_key': 'sk_test_pxUuaANGXrRy7EIBgW2AzPFH',
-  'publishable_key': 'pk_test_hWMwML4SxDuvVDqsg94BzyZc'
+  'secret_key': '',
+  'publishable_key': ''
 }
 
 stripe.api_key = stripe_keys['secret_key']
